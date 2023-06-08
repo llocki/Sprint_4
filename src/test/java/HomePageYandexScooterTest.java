@@ -5,9 +5,7 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.junit.Assert.*;
-
 
 @RunWith(Parameterized.class)
 public class HomePageYandexScooterTest {

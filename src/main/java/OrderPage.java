@@ -68,18 +68,15 @@ public OrderPage(WebDriver driver){
     driver.findElement(metroStation).click();
     }
 
-
     //Срок аренды
     public void inputArendTime(By days){
     driver.findElement(arendTime).click();
     driver.findElement(days).click();
     }
 
-
     public String results(){
        return driver.findElement(orderIsProcessed).getText();
     }
-
 
     // Шаг
     public void all (String name1,String sekondName1, String address1, String phone1, String time1,String commen1, By metroStation,By days, By colour){
