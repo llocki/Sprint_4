@@ -5,10 +5,7 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 import static org.junit.Assert.assertEquals;
-
 
 @RunWith(Parameterized.class)
 public class OrderPageTest {
@@ -40,7 +37,6 @@ public class OrderPageTest {
         this.button = button;
     }
 
-
     @Parameterized.Parameters
 
     public static Object[][] getCredentials() {
@@ -52,7 +48,6 @@ public class OrderPageTest {
                         OrderPage.tрreeDays, OrderPage.greyColour, HomePageYandexScooter.orderButtonAtTheBottom}
         };
     }
-
 
         @Test
                 public void TestMetod() {
